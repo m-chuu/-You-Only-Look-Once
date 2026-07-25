@@ -1,0 +1,24 @@
+# -------------------------------------------------
+# Dataset paths
+# -------------------------------------------------
+
+# Path to training images
+train: ./01_Train_images/train/images
+
+# Path to validation images
+val: ./01_Train_images/valid/images
+
+# Path to test images (optional)
+# Uncomment if you have a test set
+test: ./01_Train_images/test/images
+
+
+# -------------------------------------------------
+# Class names
+# -------------------------------------------------
+
+# List of object classes in the dataset
+# Index starts from 0
+names:
+  - birds
+
