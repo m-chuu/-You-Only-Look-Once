@@ -1,0 +1,5 @@
+classes = 1
+train = /Users/user/Documents/LogikHaus/Consolidated_BirdDetection/96_YOLOv2_Bird_Train/data/train.txt
+valid = /Users/user/Documents/LogikHaus/Consolidated_BirdDetection/96_YOLOv2_Bird_Train/data/valid.txt
+names = /Users/user/Documents/LogikHaus/Consolidated_BirdDetection/96_YOLOv2_Bird_Train/data/obj.names
+backup = /Users/user/Documents/LogikHaus/Consolidated_BirdDetection/96_YOLOv2_Bird_Train/backup
