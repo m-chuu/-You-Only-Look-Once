@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="/home/patih-fauzi/Kerja/AI_Test_5BB/Workspace/.Xil/Vivado-50006-rnd-02.logik.haus/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="19">
+	</WVObjectSize>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe0_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe0_1</obj_property>
+		<obj_property name="ObjectShortName">probe0_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_data_valid_100</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe1_1" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe1_1[127:0]</obj_property>
+		<obj_property name="ObjectShortName">probe1_1[127:0]</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_data_100</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe2_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe2_1</obj_property>
+		<obj_property name="ObjectShortName">probe2_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_frame_start_100</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe3_1" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe3_1[7:0]</obj_property>
+		<obj_property name="ObjectShortName">probe3_1[7:0]</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_word_hcount_100</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe4_1" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe4_1[7:0]</obj_property>
+		<obj_property name="ObjectShortName">probe4_1[7:0]</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_word_vcount_100</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe5_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe5_1</obj_property>
+		<obj_property name="ObjectShortName">probe5_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_frame_done</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe6_1" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe6_1[7:0]</obj_property>
+		<obj_property name="ObjectShortName">probe6_1[7:0]</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_wptr</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe7_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe7_1</obj_property>
+		<obj_property name="ObjectShortName">probe7_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_packed_sof</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe8_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe8_1</obj_property>
+		<obj_property name="ObjectShortName">probe8_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_sof_sync_pulse</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe9_1" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe9_1[10:0]</obj_property>
+		<obj_property name="ObjectShortName">probe9_1[10:0]</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_h_total_counter</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe10_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe10_1</obj_property>
+		<obj_property name="ObjectShortName">probe10_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_start_line_148</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe11_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe11_1</obj_property>
+		<obj_property name="ObjectShortName">probe11_1</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe12_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe12_1</obj_property>
+		<obj_property name="ObjectShortName">probe12_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_start_line_pulse</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe13_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe13_1</obj_property>
+		<obj_property name="ObjectShortName">probe13_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_frame_active</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe14_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe14_1</obj_property>
+		<obj_property name="ObjectShortName">probe14_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_line_active</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe15_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe15_1</obj_property>
+		<obj_property name="ObjectShortName">probe15_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_sof_pulse</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe16_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe16_1</obj_property>
+		<obj_property name="ObjectShortName">probe16_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_start_line_100_r</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe17_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe17_1</obj_property>
+		<obj_property name="ObjectShortName">probe17_1</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_start_line_100_f</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_i/system_ila_2/U0/probe18_1" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_i/system_ila_2/U0/probe18_1[127:0]</obj_property>
+		<obj_property name="ObjectShortName">probe18_1[127:0]</obj_property>
+		<obj_property name="label">lh_vdma_fp16_0_o_dbg_wdata</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+</wave_config>
+
