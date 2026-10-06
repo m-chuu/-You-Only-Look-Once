@@ -1,0 +1,14 @@
+{
+  "mode": "stretch",
+  "source_size": [
+    640,
+    426
+  ],
+  "scale_x": 0.65,
+  "scale_y": 0.6009389671361502,
+  "channel_order": "RGB",
+  "buffer_size": [
+    416,
+    256
+  ]
+}

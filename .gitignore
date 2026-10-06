@@ -1,3 +1,28 @@
+# Python
 .venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Zip snapshots of folders already in the repo
+*.zip
+
+# Old / scratch folders
 97_YOLOv2-0803/
 AI_Test_5BB/Workspace/
+
+# Vivado scratch output
+*.jou
+*.log
+*.str
+.Xil/

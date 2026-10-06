@@ -1,0 +1,19 @@
+{
+  "mode": "letterbox",
+  "source_size": [
+    640,
+    426
+  ],
+  "scale": 0.6009389671361502,
+  "offset_x": 15,
+  "offset_y": 0,
+  "content_size": [
+    385,
+    256
+  ],
+  "channel_order": "RGB",
+  "buffer_size": [
+    416,
+    256
+  ]
+}
