@@ -1,0 +1,29 @@
+New bird weights for the LogikHaus SoC (HWAC tiny-YOLOv2 core)
+checkpoint: C:\LogikHaus\LogikHaus\Consolidated_BirdDetection\95_HWAC_Bird_Train\runs\bird_v1\best.pt (epoch 51)
+
+Checks
+  files vs trained network, bird pictures, fp32: same top box on 100.0%
+  files vs trained network, bird pictures, fp16: same top box on 100.0%
+  files vs trained network, people photos, fp32: same top box on 98.7%
+  files vs trained network, people photos, fp16: same top box on 98.7%
+
+Validation (122 bird pictures, 300 people photos never used in training)
+  stock HWAC      top box on a bird 65% (median score 0.27) | people photos with a box >0.3: 12%, >0.5: 5% | AP50 0.119
+  new bird model  top box on a bird 93% (median score 1.00) | people photos with a box >0.3: 2%, >0.5: 1% | AP50 0.458
+
+Files
+  weight_file.bin   22,542,352 bytes  sha256 075e5abd3c50745af95f7fc113e123f15f4ef76c602f2aac100c0200dc7d6eed
+  padding_file.bin  346,112 bytes  sha256 d9cc4bbd033a2a7f996257b8a287d529515147d3b9e312cd78a7f41f6d880064
+
+Upload (lh-dashboard-P4.5, AI Control tab)
+  1. Press Clear (AI off).
+  2. File: weight_file.bin -> Browse to output\weight_file.bin -> UPLOAD TO SD  (~33 min at 115200)
+  3. File: padding_file.bin -> Browse to output\padding_file.bin -> UPLOAD TO SD (~30 s)
+  4. LOAD FROM SD TO RAM, wait for SUCCESS, then RUN AI DETECTION.
+  To go back to the stock model, upload sw1\weight_file.bin and sw1\padding_file.bin the same way.
+
+Test pictures (UPLOAD IMAGE TO RAM; boxes the board should report if it reads uploads)
+  B1.bin  (a-n-v-e-s-h-rd8B8BZoeP4-unsplash_jpg.rf.)  expect L676 R1182 T95 B616  score 1.00
+  B2.bin  (darran-shen-rvwQTa1OCaA-unsplash_jpg.rf.)  expect L887 R1038 T384 B801  score 1.00
+  B3.bin  (jake-nackos-2J66reQ7a0c-unsplash_jpg.rf.)  expect L759 R876 T708 B794  score 1.00
+  B4.bin  (pexels-brett-sayles-4266389_jpg.rf.dea08)  expect L1197 R1239 T456 B557  score 1.00

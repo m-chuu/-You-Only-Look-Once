@@ -1,0 +1,31 @@
+<!doctype html>
+<!--
+  T4 null-control test card for the video path.
+
+  Open this file on the PC that feeds the board's HDMI input and move the
+  browser window onto the display that goes to the board. Then go full screen:
+  either Edge menu (...) -> the full-screen arrows at the end of the Zoom row,
+  or click anywhere on the grey (click again to leave). Clicking works even when
+  a remote session swallows F11. Wait for the full-screen notice to fade before
+  starting detection.
+
+  The colour is RGB 114,114,114 - the same grey as T4.bin. A flat image looks the
+  same however the board resizes it, so this matches the T4.bin prediction.
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<title>T4 grey</title>
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #727272; cursor: none; }
+</style>
+</head>
+<body>
+<script>
+  document.addEventListener("click", () => {
+    if (document.fullscreenElement) document.exitFullscreen();
+    else document.documentElement.requestFullscreen();
+  });
+</script>
+</body>
+</html>
