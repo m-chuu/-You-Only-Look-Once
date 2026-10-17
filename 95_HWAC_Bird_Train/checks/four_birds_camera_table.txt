@@ -1,0 +1,13 @@
+stock HWAC  (board draws #1 only; if the board sent BGR colours, #1 would score 0.07 at middle-left)
+  #  | Score | Spot          | Box on screen (L R T B, 1920x1080)
+  ---|-------|---------------|-----------------------------------
+  1  | 0.04  | middle-right  | L1421 R1671 T359 B652
+
+new bird model  (board draws #1 only; if the board sent BGR colours, #1 would score 0.66 at centre)
+  #  | Score | Spot          | Box on screen (L R T B, 1920x1080)
+  ---|-------|---------------|-----------------------------------
+  1  | 0.69  | middle-right  | L1437 R1890 T287 B811
+  2  | 0.55  | bottom-left   | L432 R661 T845 B1070
+  3  | 0.54  | centre        | L504 R877 T362 B722
+  4  | 0.46  | bottom-right  | L1277 R1572 T650 B946
+
