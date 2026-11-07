@@ -40,6 +40,29 @@ Both files must come from the same export — the padding file is computed from
 the weights. To return to the stock model, upload `sw1\weight_file.bin` and
 `sw1\padding_file.bin` the same way.
 
+## Lock-on tracking (laptop)
+
+YOLO finds every bird; the tracker keeps the box on ONE of them, even when
+other birds appear or fly across it. Runs BoardNet, so the boxes are the ones
+the board's model would give.
+
+| Command | What it does |
+|---|---|
+| `python 05_Make_Test_Video.py` | Builds `checks/geese_test.mp4` (12 s) from the five-geese photo: goose A flies alone, three more geese arrive, one crosses in front of A, then A leaves. Also writes where each goose really is (`_truth.csv`). |
+| `python 06_Track_Video.py checks/geese_test.mp4` | Tracks in a window and saves `_tracked.mp4` + `_track.csv` (locked box per frame, L R T B on 1920x1080). Any video file works; `0` = webcam. |
+
+- **Auto (default):** locks the highest-scoring bird and keeps it; a bird that
+  appears later does not take the lock.
+- **Click a bird** to lock it; **A** goes back to auto. **Space** pauses, **Q** quits.
+- **Lost bird:** the box keeps moving at the bird's speed for 1 s
+  (`--lost-seconds`), then locks the best bird in view. A clicked bird that is
+  lost falls back to auto.
+- The tracker (`bird_tracker.py`) uses boxes only - no weights, no pixels -
+  so it can be ported to C and run right after the AI core.
+
+On the test video the lock stays on goose A through the crossing and moves to
+another goose 1 s after A leaves.
+
 ## Limits
 
 - The core always draws its single best box, even when that box scores low.
